@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           Better Arch
+@namespace      github.com/claymorwan/better-arch
+@version        1.0.0
+@description    Userstyle to make the Arch Linux pages look better 
+@author         Me
+==/UserStyle== */
+
+@-moz-document regexp('https://((aur|wiki|bbs|security)\.)?archlinux\.org/.*') {
+    
+    .box {
+        border-radius: 10px;
+    }
+    
+    .widget {
+        border-radius: 5%;
+    }
+
+    #pkgsearch {
+        border-radius: 10px;
+    }
+
+    #actionlist {
+        border-radius: 5% !important;
+    }
+
+    a.active {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .cgit-panel form {
+        border-radius: 100% !important;
+    }
+
+    table.diffstat {
+        tr {
+            border-radius: 100% !important;
+        }
+    }
+}
