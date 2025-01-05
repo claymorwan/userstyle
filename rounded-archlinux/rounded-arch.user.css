@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           Better Arch
+@name           Rounded Archlinux
 @namespace      github.com/claymorwan/better-arch
 @version        1.0.0
-@description    Userstyle to make the Arch Linux pages look better 
-@author         Me
+@description    Userstyle to give Arch Linux's pages rounded corner cuz why not 
+@author         claymorwan
 ==/UserStyle== */
 
 @-moz-document regexp('https://((aur|wiki|bbs|security)\.)?archlinux\.org/.*') {
@@ -37,5 +37,13 @@
         tr {
             border-radius: 100% !important;
         }
+    }
+
+    .catlinks {
+        border-radius: 10px;
+    }
+
+    pre {
+        border-radius: 10px;
     }
 }
