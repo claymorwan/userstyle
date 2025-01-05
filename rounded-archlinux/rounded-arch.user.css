@@ -4,6 +4,7 @@
 @version        1.0.0
 @description    Userstyle to give Arch Linux's pages rounded corner cuz why not 
 @author         claymorwan
+@updateURL      https://github.com/claymorwan/userstyle/blob/main/rounded-archlinux/rounded-arch.user.css
 ==/UserStyle== */
 
 @-moz-document regexp('https://((aur|wiki|bbs|security)\.)?archlinux\.org/.*') {
